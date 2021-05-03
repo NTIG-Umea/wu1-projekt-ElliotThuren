@@ -10,21 +10,80 @@ body {
   font-size: 1rem;
 }
 
+.img {
+  max-width: 30%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.purple {
+  max-width: 100%;
+  flex: 1;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
+.yo {
+  flex: 1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 #logaa {
   width: 25%;
-  padding-left: 7%;
+  padding-left: 3%;
   background-color: rgb(137, 134, 252);
+}
+
+.lega {
+  background-color: rgb(137, 134, 252);
+  color: black;
 }
 
 .lego {
   background-color: rgb(137, 134, 252);
   color: black;
+  padding-left: 30%;
 }
-.lego a {
-  color: black;
+
+.laga {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 35px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 540px) {
+  .row {
+    flex-direction: column-reverse;
+  }
 }
