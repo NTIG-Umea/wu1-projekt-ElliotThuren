@@ -22,12 +22,41 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .yo {
   flex: 1;
+}
+
+.wat {
+  border-bottom: 2px solid #8986FC;
+}
+
+.wata {
+  border-bottom: 5px solid #8986FC;
+  width: 98%;
+}
+
+.ulle {
+  padding-left: 12%;
+}
+
+.bulle {
+  padding-left: 40%;
+}
+
+.wulle {
+  padding-left: 18%;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
 }
 
 .d-flex {
