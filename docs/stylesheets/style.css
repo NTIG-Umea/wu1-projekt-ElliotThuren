@@ -59,12 +59,12 @@ h3 {
   text-decoration: underline;
 }
 
-.d-flex {
-  display: flex;
+.line {
+  line-height: 20px;
 }
 
-.flex-column {
-  flex-direction: column;
+.d-flex {
+  display: flex;
 }
 
 #logaa {

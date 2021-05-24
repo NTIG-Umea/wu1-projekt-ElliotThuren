@@ -1,1 +1,0 @@
-Figmalänk: https://www.figma.com/file/aZLHjaq8ldWrOHDeYZVMGt/BILDTERAPIHUSET-Elliot-TE19?node-id=0%3A1
