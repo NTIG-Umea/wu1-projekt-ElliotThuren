@@ -21,6 +21,10 @@ body {
   flex: 1;
 }
 
+.sulle {
+  max-height: 100%;
+}
+
 .container {
   width: 60%;
   margin: 0 auto;
@@ -28,6 +32,10 @@ body {
 
 .yo {
   flex: 1;
+}
+
+.container.yo {
+  padding: 0 2rem;
 }
 
 .wat {
@@ -44,11 +52,13 @@ body {
 }
 
 .bulle {
-  padding-left: 40%;
+  padding-left: 45%;
+  padding-top: 8%;
+  cursor: pointer;
 }
 
 .wulle {
-  padding-left: 18%;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -60,7 +70,7 @@ h3 {
 }
 
 .line {
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .d-flex {
